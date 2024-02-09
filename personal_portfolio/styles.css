@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+}
+
+body {
+    color: white;
+}
+
+@media only screen and (max-width: 580px) {
+    * {
+    background-color: white;
+    }
+
+    body {
+        color: black;
+    }
+}
